@@ -1,9 +1,9 @@
-
+import Content from '../components/Content.js'
 
 export default function Home() {
   return (
     <main>
-      <p>test</p>
+      <Content/>
     </main>
   )
 }
