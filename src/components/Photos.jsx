@@ -4,9 +4,9 @@ import '../scss/home/content.scss'
 
 
 
-export default function () {
+export default function Photos() {
 
-    let elements = photosList.map((el, i) => <Photo obj={el} key={i}/>);
+    let elements = photosList.map((el, i) => <Photo obj={el} key={i} dataKey={i}/>);
 
 
     console.log('render');

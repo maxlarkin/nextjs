@@ -1,6 +1,6 @@
 let fs = require('fs');
 const path = require('path');
-curPath = __dirname + '/public/photos';
+origPath = __dirname + '/public';
 
 fs.writeFileSync(__dirname + '/src/filesList.js', 'export default');
 
@@ -20,14 +20,13 @@ function getElems(curPath, prevFilters) {
 
         } else {
             element.filters = prevFilters;
-            // console.log(element);
-            console.log('test')
+            element.dataPath = curPath.replace(origPath, '') + '/' + element.name;
+            console.log(element);
             obj.push(element)
         }
 
     }
 }
 
-getElems(curPath, []);
-console.log(obj)
+getElems(origPath + '/photos', []);
 fs.appendFileSync(__dirname + '/src/filesList.js', JSON.stringify(obj));

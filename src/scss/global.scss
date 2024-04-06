@@ -3,7 +3,6 @@
 body {
   background:  top / cover no-repeat url("/forestjpg.jpg") fixed;
   font-family: Arial, sans-serif;
-  color: black;
   &, div{
     padding: 0;
     margin: 0;
@@ -13,5 +12,26 @@ body {
     box-sizing: border-box;
   }}
 
+ul, li{
+  border: none;
+}
 
+a{
+  text-decoration: none;
+}
 
+.container-fluid{
+  padding-top: 5rem;
+}
+
+@media(max-width: 769px) {
+  .container-fluid{
+    padding: 0;
+  }
+}
+
+@media(min-width: 1439px) {
+  .container{
+    max-width: 80%;
+  }
+}

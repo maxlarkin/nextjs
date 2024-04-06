@@ -4,13 +4,13 @@
   top: 0;
   width: 100%;
   z-index: 999;
-  ul li{
-    padding: 1rem
-  }
-
   text-align: center;
   background: #333;
   color: #fff;
+
+  ul li{
+    padding: 0.5rem;
+  }
 }
 
 .logo{
@@ -18,7 +18,15 @@
   display: block;
 }
 
+.header-nav{
+  border: none;
+}
 
-.dropdown-menu{
-  padding: 0 2rem;
+.btn-header{
+  background: #333;
+  border: 1px solid white;
+  &:hover{
+    background: #222;
+    border: 1px solid #222;
+  }
 }

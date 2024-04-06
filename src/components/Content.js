@@ -1,13 +1,12 @@
 import '../scss/home/content.scss';
 
-import Header from "./Header.js";
 import Photos from './Photos.jsx'
+import Container from "react-bootstrap/Container";
 
-export default function () {
+export default function Content() {
     return(
-        <div className='content container'>
-            <Header/>
+        <Container className='test'>
             <Photos/>
-        </div>
+        </Container>
     )
 }
