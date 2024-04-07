@@ -1,7 +1,6 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
-  background:  top / cover no-repeat url("/forestjpg.jpg") fixed;
   font-family: Arial, sans-serif;
   color: white;
   &, div{
@@ -12,6 +11,10 @@ body {
     display: inline-block;
     box-sizing: border-box;
   }}
+
+.bgOnload{
+  background:  top / cover no-repeat url("/forestjpg.jpg") fixed;
+}
 
 ul, li{
   border: none;

@@ -21,6 +21,12 @@
   border-radius: 30px;
   background: #fff;
   width: 15%;
+  transition: 1s height;
+  cursor: pointer;
+  img {
+    transition: 1s height;
+
+  }
   p{
     display: block;
     margin: 1rem;

@@ -13,20 +13,20 @@ export default function Header() {
 
     return (
         <header className='header'>
-            <div className='logo '>Галерея Каменской школы (v1.3.1)</div>
+            <div className='logo '>Галерея музея Каменской школы</div>
             <ButtonGroup className='nav nav-tabs nav-fill header-nav'>
                 <Button
                     onClick={() => router.push('/home')}
                     className={'nav-item btn-header' + (pathname === '/home' ? 'active' : '')}
-                >Home</Button>
+                >Главная</Button>
                 <Button
                     onClick={() => router.push('/')}
                     className={'nav-item btn-header' + (pathname === '/' ? 'active' : '')}
-                >Photos</Button>
+                >Фотографии</Button>
                 <Button
                     onClick={() => router.push('/about')}
                     className={'nav-item btn-header' + (pathname === '/contacts' ? 'active' : '')}
-                >Contacts</Button>
+                >Контакты</Button>
             </ButtonGroup>
 
         </header>

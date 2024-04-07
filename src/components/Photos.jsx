@@ -13,7 +13,7 @@ export default function Photos() {
 
     return (
         <div className='photosContainer'>
-            <span style={{width: '100%', fontSize: '2rem', display: 'inline-block', paddingLeft: '1rem'}}>photos: </span>
+            <span style={{width: '100%', fontSize: '2rem', display: 'inline-block', paddingLeft: '1rem'}}>Фотографии: </span>
             {elements}
         </div>
     )
