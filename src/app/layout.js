@@ -4,9 +4,9 @@ import '../scss/global.scss'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'This is test',
-  description: 'This is just my test',
-  keywords: ['Каменская СОШ', 'Каменская школа','музей','музей Каменской школы','Каменое'],
+  title: 'музей Каменской СОШ',
+  description: 'Оцифрованный музей Каменской СОШ',
+  keywords: ['Каменская СОШ', 'Каменская школа','музей','музей Каменской школы','Каменое', 'Оцифрованный музей'],
   authors: [
       {name: 'Larkin Maxim', role: 'main developer'}
     ],
