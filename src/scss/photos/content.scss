@@ -1,7 +1,6 @@
 .test{
-  background: grey;
+  background: #242426;
   padding: 6rem 1rem;
-  margin-top: 4rem;
   display: block;
 }
 
@@ -26,23 +25,34 @@
     display: block;
     margin: 1rem;
     padding: 0;
+    color: #000;
   }
 }
 
 
 @media(max-width: 1025px) {
+  //4 img in row
   .photo{
     width: 20%;
   }
 }
 
 @media(max-width: 769px) {
+  //3 img in row
   .photo{
     width: 25%;
   }
 }
 
-@media(max-width: 321px) {
+@media(max-width: 426px) {
+  //2 img in row
+  .photo{
+    width: 40%;
+  }
+}
+
+@media(max-width: 376px) {
+  //1 image in row
   .photo{
     width: 90%;
   }

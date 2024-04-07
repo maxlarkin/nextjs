@@ -1,4 +1,4 @@
-import '../scss/home/content.scss';
+import '../scss/photos/content.scss';
 
 import Photos from './Photos.jsx'
 import Container from "react-bootstrap/Container";

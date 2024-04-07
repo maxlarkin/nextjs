@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'This is test',
   description: 'This is just my test',
-  keywords: ['Каменская СОШ', 'Каменская школа','музей','музей Каменской школы','Каменое','хрень'],
+  keywords: ['Каменская СОШ', 'Каменская школа','музей','музей Каменской школы','Каменое'],
   authors: [
       {name: 'Larkin Maxim', role: 'main developer'}
     ],

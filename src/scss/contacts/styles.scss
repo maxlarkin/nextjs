@@ -1,0 +1,20 @@
+
+
+.contacts-container{
+  background: #242426;
+  padding: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contacts-content {
+  p{
+    margin: 1rem 3rem;
+    font-size: 2rem;
+    font-style: italic;
+  }
+  h2{
+    margin-top: 2rem;
+  }
+}

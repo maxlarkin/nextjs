@@ -1,6 +1,6 @@
 "use client";
 
-import '../scss/home/header.scss'
+import '../scss/photos/header.scss'
 import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import {useRouter} from "next/navigation";
@@ -25,8 +25,8 @@ export default function Header() {
                 >Photos</Button>
                 <Button
                     onClick={() => router.push('/about')}
-                    className={'nav-item btn-header' + (pathname === '/about' ? 'active' : '')}
-                >About me and kamen school</Button>
+                    className={'nav-item btn-header' + (pathname === '/contacts' ? 'active' : '')}
+                >Contacts</Button>
             </ButtonGroup>
 
         </header>

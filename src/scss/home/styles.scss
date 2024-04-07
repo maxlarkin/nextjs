@@ -1,0 +1,13 @@
+.home-content{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: stretch;
+  float: top;
+}
+
+.home-container{
+  background: #242426;
+  padding: 10rem 1rem;
+  display: block;
+}
