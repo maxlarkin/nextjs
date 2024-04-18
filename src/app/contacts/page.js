@@ -11,10 +11,11 @@ export default function Contacts() {
 
                 <div className='contacts-content'>
                     <h1>Контакты</h1>
-                    <h2>Сайт Каменской школы: <a href="https://shkolakamenskaya-r18.gosweb.gosuslugi.ru/">
-                            https://shkolakamenskaya-r18.gosweb.gosuslugi.ru/
-                        </a>
-                    </h2>
+                    <h2>Сайт Каменской школы: </h2>
+                    <p><a href="https://shkolakamenskaya-r18.gosweb.gosuslugi.ru/">
+                        https://shkolakamenskaya-r18.gosweb.gosuslugi.ru/
+                    </a></p>
+
                     <h2>Телефоны</h2>
                     <p>8 (3416)525108 - школа</p>
 

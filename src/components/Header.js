@@ -24,7 +24,7 @@ export default function Header() {
                     className={'nav-item btn-header' + (pathname === '/' ? 'active' : '')}
                 >Фотографии</Button>
                 <Button
-                    onClick={() => router.push('/about')}
+                    onClick={() => router.push('/contacts')}
                     className={'nav-item btn-header' + (pathname === '/contacts' ? 'active' : '')}
                 >Контакты</Button>
             </ButtonGroup>
