@@ -3,6 +3,7 @@
 body {
   font-family: Arial, sans-serif;
   color: white;
+  background: #242426;
   &, div{
     padding: 0;
     margin: 0;
@@ -13,7 +14,7 @@ body {
   }}
 
 .bgOnload{
-  background:  top / cover no-repeat url("/forestjpg.jpg") fixed;
+  //background:  top / cover no-repeat url("/forestjpg.jpg") fixed;
 }
 
 ul, li{

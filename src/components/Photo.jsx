@@ -8,7 +8,6 @@ import {useEffect} from "react";
 export default function Photo({obj, dataKey}) {
 
     useEffect(() => {
-        document.body.classList.add('bgOnload')
         const photos = document.getElementsByClassName('photo');
 
         const options = {threshold: 1};
@@ -17,7 +16,6 @@ export default function Photo({obj, dataKey}) {
             els.forEach((data) => {
                 if(data.intersectionRatio == 1) {
                     let img = data.target.firstChild;
-                    // console.log(img.getAttribute('datasrc'))
                     img.src = img.getAttribute('datasrc')
                 }
             })
@@ -40,7 +38,7 @@ export default function Photo({obj, dataKey}) {
     return (
         <div className='photo ' key={dataKey} onClick={() => router.push(obj.dataPath)}>
             <img className='photo-img' src='' datasrc={obj.dataPath} alt="" draggable={false}/>
-            <p style={{fontStyle: 'italic'}}>{text.includes('Scan') || text.includes('photo') ? 'nameless photo' : text}</p>
+            <p style={{fontStyle: 'italic'}}>{text.includes('Scan') || text.includes('photo') ? 'Фото без названия' : text}</p>
         </div>
     )
 }
